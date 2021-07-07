@@ -1,0 +1,35 @@
+package main;
+
+
+public class student extends person{
+	int student_id;
+	double gpa;
+	String claas;
+	super(name, date, gender, nationalid,  phonenum, email);	
+	
+	
+	void setstudent_id(int id) {
+		this. student_id=id;
+	}
+	
+	void setgpa(double gpa) {
+		this. gpa=gpa;
+	}
+	void setclaas(String claas) {
+		this. claas=claas;
+	}
+	
+int getstudent_id() {
+	return this.student_id;
+
+}
+double getgpa() {
+	return this.gpa;
+
+}
+String getclaas() {
+	return this.claas;
+
+}
+	
+}

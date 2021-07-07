@@ -1,0 +1,3 @@
+module sal {
+	exports sal;
+}

@@ -1,0 +1,21 @@
+package alodainat;
+
+import java.util.Scanner;
+
+public class alodainat {
+	 public static void main(String[] args) {
+	Scanner s= new Scanner(System.in);
+	String d=s.nextLine();
+	char[] arr= new char[d.length()];
+	char[] srr=new char [d.length()];
+	
+	arr =d.toCharArray();
+	   String f=d.toUpperCase();
+	   srr = f.toCharArray();
+		 
+		 System.out.println(srr);
+		 
+		 
+	}
+
+}

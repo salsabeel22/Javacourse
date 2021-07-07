@@ -1,0 +1,17 @@
+package alodainat;
+
+import java.util.Scanner;
+
+public class alodainat {
+	 public static void main(String[] args) {
+	Scanner s= new Scanner(System.in);
+	String d=s.nextLine();
+	
+		 
+		 
+		 System.out.println(d);
+		 
+		 
+	}
+
+}

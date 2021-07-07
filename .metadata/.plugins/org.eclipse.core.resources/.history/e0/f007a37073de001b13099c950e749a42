@@ -1,0 +1,8 @@
+package alodainat;
+
+public class alodainat {
+	 public static void main(String[] args) {
+		System.out.println("salsabeel");
+	}
+
+}

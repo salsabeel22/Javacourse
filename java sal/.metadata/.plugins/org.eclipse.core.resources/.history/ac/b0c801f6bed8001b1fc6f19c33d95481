@@ -1,0 +1,11 @@
+package main;
+
+public class main {
+
+public static void main(String[]args) {
+
+			person s1=new person("salsabeel","2/8/1998",'f',9820,"0782699050","salsabeelalodainat@yahoo.com");
+			s1.print();
+}
+	
+}

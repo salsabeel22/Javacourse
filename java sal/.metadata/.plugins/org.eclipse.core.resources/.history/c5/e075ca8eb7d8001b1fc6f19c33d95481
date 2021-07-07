@@ -1,0 +1,66 @@
+package main;
+
+public class person {
+public String name;
+public String date_of_birth;
+public char gender;
+public int national_id;
+public double phone_num;
+public String email;
+person(String name,String date,char gender,int nationalid, double phonenum,String email){
+	setName(name);
+	setdate_of_birth(date);
+	setgender( gender);
+	
+	 setnational_id(nationalid );
+	 setphone_num( phonenum);
+	 setemail( email);
+	 
+}
+
+
+void setName(String name) {
+	this.name=name;
+}
+
+void setdate_of_birth(String date) {
+	this.date_of_birth=date;
+}
+void setgender(char gender) {
+	this.gender=gender;
+}
+void setnational_id(int id) {
+	this.national_id=id;
+}
+void setphone_num(double num) {
+	this.phone_num=num;
+}
+void setemail(String email) {
+	this.email=email;
+}
+
+String getname() {
+	return this.name;}
+String getdate_of_birth() {
+	return this.date_of_birth;}
+char getgender() {
+	return this.gender;}
+int getnational_id() {
+	return this.national_id;}
+double getphone_num() {
+	return this.phone_num;}
+String getemail() {
+	return this.email;}
+
+
+public void print() {
+	System.out.println("nameperson="+name);
+	System.out.println("dateperson="+date_of_birth);
+	System.out.println("genderperson="+gender);
+	System.out.println("nationalidperson="+national_id);
+	System.out.println("phonenumperson="+phone_num);
+	System.out.println("emailperson="+email);
+	
+}
+}
+
